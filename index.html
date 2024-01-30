@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushar Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/118bb7e203.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/name1.jpg" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <div class="headertxt1">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Tushar</span></h1>
+                <div class="images">
+                    <img src="images/slef.png"  class="profile-image">
+                </div>
+                <p class="intro">Welcome to my personal website! I'm a dedicated <br>software developer honing my problem-solving skills.<br> Scroll down to delve deeper into my journey and expertise.<br>Let's connect and innovate together! 🚀</p>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about3.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Hello! I'm Tushar, a third-year Computer Science student at Chandigarh University. Hailing from Nashik, Maharashtra, my journey in technology began with a fervor for software and web development. Throughout my Bachelor's, I've woven a tapestry of projects showcasing my skills, with a special emphasis on blockchain technology. Hackathons are my playground, where I thrive on the thrill of rapid problem-solving. Join me on this exhilarating ride as I blend academic excellence with hands-on experience. Dive into my portfolio to witness the intersection of code and creativity, where every project is a testament to my dedication to shaping the future of technology.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('Education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>C++ | Python | JavaScript | SQL | Solidity</li>
+                            <li><span>DBMS</span><br>MySQL | MongoDB</li>
+                            <li><span>Software Tools</span><br>Git | Linux</li>
+                            <li><span>Frameworks and libraries</span><br>React.js | Node.js | Pytest | Pandas | Matplotlib</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Oct 2022 - Nov 2022</span><br>Data Analyst Intern at Rural HandMade</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2021 - 2025</span><br>BE-CSE from Chandigarh University</li>
+                            <li><span>2020</span><br>High School from Global Public School</li>
+                            <li><span>2018</span><br>Secondary School from Boys' Town Public School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <!-- --------------------Services---------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>With a robust foundation in both frontend and backend web development, I offer a versatile range of services. From crafting visually stunning user interfaces to building powerful server-side functionalities, my hands-on expertise ensures seamless and dynamic digital experiences. Let's elevate your online presence together!</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Software Development</h2>
+                    <p>With a foundation in C++, I offer software development solutions rooted in problem-solving, creativity, and optimism. My calm yet focused approach ensures efficient resolution of challenges, delivering robust and innovative software tailored to your needs. Let's turn your ideas into reality together!</p>
+                    <a href="">Learn More</a>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <!-- -----------------------Postfolio--------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/alert1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Web Application</h3>
+                        <h2>EMAIL/SMS MESSAGE CLASSIFIER INTO SPAM & NOT SPAN</h2>
+                        <p>Implemented an advanced content monitoring system, detecting and flagging over 500 harmful communications;reduced
+                            customer exposure to undesirable content by 75%, ensuring a safe user experience.</p>
+                        <a href="https://github.com/Tushar282002/Email-SMS-spam-classifier"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/automatic.png" alt="">
+                    <div class="layer">
+                        <h3>Web Application</h3>
+                        <h2>AUTOMATIC ANSWER CHECKER</h2>
+                        <p>Created a model utilizing NLP for sentiment analysis, sentence improvement with various libraries, and a partialscoring
+                            system with an efficiency of almost 80%.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/management1.png" alt="">
+                    <div class="layer">
+                        <h3>Web Application</h3>
+                        <h2>College Management System Using Blockchain</h2>
+                        <p>The system employs Blockchain-Based Authentication (BBA) for robust security, exclusively permitting verifiedusers with
+                            valid credentials, thereby reducing the risk of malicious access by up to 95%.</p>
+                        <a href="https://github.com/Tushar282002/College-Management-System-Using-Blockchain/tree/main"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="Portfolio.html" class="btn">See More</a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <!-- ----------------------Contact----------------------------------->
+    <div id="contact">
+        <div class="container">
+             <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title2">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>tushargangurde859@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91-7057478362</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Tushar282002"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/tushar-gangurde-338776226/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://x.com/tushu282002?t=krYfdDOqbUdmWSDJAUKnHA&s=09"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/tushu.28?igsh=MTZ0aWhjeXM2dDdzdg=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100014354651824&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/Tushar_Resume.pdf" class="btn btn2" download>Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="email" name="Email" placeholder="Enter Your Email" required>
+                        <textarea name="Message"  placeholder="Your Message" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+             </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2024 All rights reserved | This website is made with <i class="fa-solid fa-heart"></i> by Tushar Gangurde</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxLQ0YfAy36N1NF63NejeqLcyX83kPPIvxSS2d08vlUMwIkKjGZhE1zujdpzFacx_tx/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },2500) 
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>

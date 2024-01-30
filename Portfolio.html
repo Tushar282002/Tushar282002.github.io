@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushar's Work</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/118bb7e203.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+            <nav class="portfolio">
+                <img src="images/name1.jpg" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/alert1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Web Application</h3>
+                        <h2>EMAIL/SMS MESSAGE CLASSIFIER INTO SPAM & NOT SPAN</h2>
+                        <p>Implemented an advanced content monitoring system, detecting and flagging over 500 harmful communications;reduced
+                            customer exposure to undesirable content by 75%, ensuring a safe user experience.</p>
+                        <a href="https://github.com/Tushar282002/Email-SMS-spam-classifier"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/automatic.png" alt="">
+                    <div class="layer">
+                        <h3>Web Application</h3>
+                        <h2>AUTOMATIC ANSWER CHECKER</h2>
+                        <p>Created a model utilizing NLP for sentiment analysis, sentence improvement with various libraries, and a partialscoring
+                            system with an efficiency of almost 80%.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/management1.png" alt="">
+                    <div class="layer">
+                        <h3>Web Application</h3>
+                        <h2>College Management System Using Blockchain</h2>
+                        <p>The system employs Blockchain-Based Authentication (BBA) for robust security, exclusively permitting verifiedusers with
+                            valid credentials, thereby reducing the risk of malicious access by up to 95%.</p>
+                        <a href="https://github.com/Tushar282002/College-Management-System-Using-Blockchain/tree/main"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Sudoku.png" alt="">
+                    <div class="layer">
+                        <h3>Application</h3>
+                        <h2>Sudoku Solver</h2>
+                        <p>This is a sudoku solver using the backtracking algorithm. It includes a graphical GUI as well as a text based version.
+                        </p>
+                        <a href="https://github.com/Tushar282002/Sudoko"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/fake_news.png" alt="">
+                    <div class="layer">
+                        <h3>Web Application</h3>
+                        <h2>Fake News Detector</h2>
+                        <p>Python-built fake news detector uses algorithms to analyze content for accuracy and credibility.</p>
+                        <a href="https://github.com/Tushar282002/Fake-News-Detector"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
